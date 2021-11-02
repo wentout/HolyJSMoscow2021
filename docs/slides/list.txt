@@ -1,10 +1,10 @@
 0000.json 0
 0001.json 1
-0002.md.txt 6
+0002.md.txt 7
 0003.json 3
 0004-StoryPlot.md.txt 1
 0005-Prototypes.md.txt 31
 0006-TheDeal.md.txt 8
 0007-NextStep.md.txt 23
 0009-Reactions.md.txt 20
-0010.md.txt 12
+0010.md.txt 11
