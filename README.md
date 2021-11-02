@@ -1,4 +1,4 @@
-# slides for "Strict Types in JavaScript" talk
+# slides for "Multiple Inheritance in JavaScript" talk
 
 Made on mythographica's [presentations framework](https://github.com/mythographica/slider)
 
@@ -12,7 +12,7 @@ git clone
 
 ## 2. go to the distro dir
 ```bash
-cd ./BeerJS_Voronezh_2021
+cd ./HolyJSMoscow2021
 ```
 
 ## 3. install the dependencies
@@ -38,12 +38,12 @@ navigate your chrome to `chrome://inspect`, or do this kind of things for your p
 navigate your browser to 
 
 ```bash
-http://localhost:3001/BeerJS_Voronezh_2021
+http://localhost:3001/HolyJSMoscow2021
 ```
 or
 
 ```bash
-https://wentout.github.io/BeerJS_Voronezh_2021/
+https://wentout.github.io/HolyJSMoscow2021/
 ```
 
 ### fin
