@@ -81,41 +81,12 @@
 </center>
 </Box>
 
------
-
-
-
-<Box sx={{marginTop: '10vh'}}>
-<center>
-
-<h1 style={{fontSize: '11vh', color:'orange'}}>links</h1>
-
-<br/>
-
-<br/>
-
-# [this talk with all examples](https://wentout.github.io/MoscowJS50/)
-
-<br/>
-
-# used library : [Type ø Matica](https://www.npmjs.com/package/typeomatica)
-
-<br/>
-<br/>
-
-# project : [Mnemonica](https://www.npmjs.com/package/mnemonica)
-
-<br/>
-
-
-</center>
-</Box>
 
 -----
 
 
 <Box sx={{textAlign: 'center'}}>
-<a href="https://wentout.github.io/MoscowJS50/">
+<a href="https://github.com/wentout/HolyJSMoscow2021">
 <img src="./content/qrcode_wentout.github.io.png" style={{marginTop: '2vh', width: '49vw'}} />
 </a>
 </Box>
