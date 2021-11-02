@@ -1,0 +1,53 @@
+
+-----
+
+<Box>
+<center>
+<img src="./content/MoscowJS_logo.jpg"  style={{marginTop: '5vh', width: '45vw', background: 'white'}} />
+</center>
+</Box>
+
+
+-----
+
+<Box>
+<center>
+<a href="https://piterjs.org/">
+<img src="./content/img/piter.js.logo.svg"  style={{marginTop: '5vh', width: '45vw', background: 'white'}} />
+</a>
+</center>
+</Box>
+
+
+-----
+
+<Box sx={{textAlign: 'center'}}>
+<a href="https://spbnodejs.org/">
+<img src="./content/img/Node.js.SPb.jpg" style={{marginTop: '5vh', width: '45vw'}} />
+</a>
+</Box>
+
+-----
+
+<Box sx={{textAlign: 'center'}}>
+<a href="https://twitter.com/rndjsmeetup">
+<img src="./content/RND.JS.png" style={{marginTop: '2vh', width: '49vw'}} />
+</a>
+</Box>
+
+
+-----
+
+<Box>
+<center>
+<img src="./content/BeerJS.jpg"  style={{marginTop: '5vh', width: '45vw', background: 'white'}} />
+</center>
+</Box>
+
+-----
+
+<Box sx={{textAlign: 'center'}}>
+<a href="https://wentout.github.io/MoscowJS50/">
+<img src="./content/qrcode_wentout.github.io.png" style={{marginTop: '2vh', width: '49vw'}} />
+</a>
+</Box>

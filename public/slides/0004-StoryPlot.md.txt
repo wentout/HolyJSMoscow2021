@@ -1,0 +1,23 @@
+
+<h1 style={{fontSize:'15vh', color: 'orange'}}>... intro ...</h1>
+
+<h1 className="borderline">-1</h1>
+
+
+
+
+-----
+# and for now we may have
+
+<Box sx={{marginTop: '25vh'}}>
+<center>
+<h1 style={{fontSize: '10vh', color: 'red'}}>Strict Types Example</h1>
+<h1 style={{fontSize: '12vh', color: 'orange'}}>for Dynamic Runtime</h1>
+</center>
+</Box>
+
+
+
+<Button onClick={() => { fetch('http://localhost:3001/example/08_TheDealExample_1')}}>Run Me</Button>
+
+

@@ -1,0 +1,47 @@
+{
+  "name": "mnemonica-react-slides",
+  "version": "1.0.0",
+  "description": "presentations framework based on react+mdx & mnemonica",
+  "keywords": [
+    "mnemonica",
+    "react",
+    "starter",
+    "slides",
+    "MDX"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@mdx-js/mdx": "^1.6.6",
+    "@mdx-js/react": "^1.6.6",
+    "@mdx-js/runtime": "^1.6.6",
+    "@mnemonica/topologica": "0.0.3",
+    "@theme-ui/presets": "^0.3.5",
+    "@theme-ui/prism": "^0.3.5",
+    "d3": "^5.15.0",
+    "eslint-plugin-mocha": "^8.1.0",
+    "eslint-plugin-no-arrow-this": "^1.2.0",
+    "eslint-plugin-react": "^7.23.2",
+    "express": "^4.17.1",
+    "magic-snowflakes": "^4.2.0",
+    "mnemonica": "^0.9.939",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-scripts": "^4.0.3",
+    "theme-ui": "^0.3.5",
+    "typeomatica": "^0.2.3",
+    "typescript": "^3.9.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "rm -rf ./docs && PUBLIC_URL=/HolyJSMoscow2021 react-scripts build && mv ./build ./docs",
+    "lint": "npx eslint --fix  ./src/",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

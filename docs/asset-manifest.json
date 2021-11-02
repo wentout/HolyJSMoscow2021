@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/HolyJSMoscow2021/static/css/main.93d1fc39.chunk.css",
+    "main.js": "/HolyJSMoscow2021/static/js/main.6f2840ee.chunk.js",
+    "main.js.map": "/HolyJSMoscow2021/static/js/main.6f2840ee.chunk.js.map",
+    "runtime-main.js": "/HolyJSMoscow2021/static/js/runtime-main.da479de7.js",
+    "runtime-main.js.map": "/HolyJSMoscow2021/static/js/runtime-main.da479de7.js.map",
+    "static/js/2.4bb1d8d4.chunk.js": "/HolyJSMoscow2021/static/js/2.4bb1d8d4.chunk.js",
+    "static/js/2.4bb1d8d4.chunk.js.map": "/HolyJSMoscow2021/static/js/2.4bb1d8d4.chunk.js.map",
+    "index.html": "/HolyJSMoscow2021/index.html",
+    "static/css/main.93d1fc39.chunk.css.map": "/HolyJSMoscow2021/static/css/main.93d1fc39.chunk.css.map",
+    "static/js/2.4bb1d8d4.chunk.js.LICENSE.txt": "/HolyJSMoscow2021/static/js/2.4bb1d8d4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da479de7.js",
+    "static/js/2.4bb1d8d4.chunk.js",
+    "static/css/main.93d1fc39.chunk.css",
+    "static/js/main.6f2840ee.chunk.js"
+  ]
+}

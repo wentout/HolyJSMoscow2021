@@ -1,0 +1,388 @@
+
+-----
+
+<h1 style={{fontSize:'15vh', color: 'orange'}}>Multiplication</h1>
+
+<h1 className="borderline">2</h1>
+
+-----
+
+-----
+
+<h1 style={{color: 'red'}}> So we need Factories in Time ... </h1>
+
+```javascript className=codehuge
+function Factory(previous) {
+    function MyKind({state}) {
+        this.state = state;
+    };
+	// inheritance pattern from oldies of 1995
+    MyKind.prototype = previous;		// !!!
+    return MyKind;
+};
+const MyKind = Factory({ state: 1 });
+const instance = new MyKind({ state: 2 });
+```
+
+
+-----
+
+# factory gives us lifecycle timeline
+
+<div style={{marginLeft: '5vw'}}>
+
+<Box sx={{marginTop: '1vh'}}>
+<h1 style={{fontSize: '7vh', color: 'orange'}}>Factory gives Entities <span style={{marginLeft: '1vw', foneSize: '8vh', color: 'green'}}> Life Cycle </span> <span style={{marginLeft: '1vw', foneSize: '9vh', color: 'gray'}}>in Time</span></h1> 
+</Box>
+
+<br/>
+
+<div className="timelineText">
+
+
+# &mdash; <span style={{color:'gray'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'gray'}}>Line</span> &mdash; &mdash; <span style={{color:'gray'}}>&gt;</span>
+
+</div>
+
+
+<div className="timelineTextBlack">
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+
+</div>
+
+<Chart id='chartAbs' opts={{
+	chart : {
+		type : 'tree',
+		chartData : {
+			name : 'Entry',
+			stroke: 'white',
+			children : [{
+				name: 'Leaf 1',
+				stroke: 'white',
+				children : [{
+					name: 'Leaf 1 . 1',
+					stroke: 'white',
+					children : [{
+						name: 'Leaf 1 . 1',
+						stroke: 'white'
+					}]
+				}, {
+					name: 'Leaf 1 . 2',
+					stroke: 'white',
+					children : [{
+						name: 'Leaf 1 . 2',
+						stroke: 'white',
+					}]
+				}],
+			}, {
+				name: 'Leaf 2',
+				stroke: 'white',
+				children : [{
+					name: 'Leaf 2 . 1',
+					stroke: 'white',
+				}, {
+					name: 'Leaf 2 . 2',
+					stroke: 'white',
+				}, {
+					name: 'Leaf 2 . 3',
+					stroke: 'white',
+				}],
+			}],
+		},
+		print : app.print,
+		dy : 15,
+		dx : 95,
+		width : 450,
+		margin : {
+			top: 15, right: 40, bottom: 10, left: 40
+		}
+	}
+}} />
+
+</div>
+
+
+
+
+-----
+
+# sooo ... 
+
+<Box sx={{marginTop: '9vh'}}>
+<center>
+<h1 style={{fontSize: '9vh', color: 'green'}}>... but ...</h1>
+</center>
+</Box>
+
+-----
+
+# sooo ... 
+
+<Box sx={{marginTop: '9vh'}}>
+<center>
+<h1 style={{fontSize: '9vh', color: 'green'}}>... but ...</h1>
+<h1 style={{fontSize: '9vh'}}>what actually is that</h1>
+</center>
+</Box>
+
+-----
+
+# sooo ... 
+
+<Box sx={{marginTop: '9vh'}}>
+<center>
+<h1 style={{fontSize: '9vh', color: 'green'}}>... but ...</h1>
+<h1 style={{fontSize: '9vh'}}>what actually is that</h1>
+<h2 style={{fontSize: '12vh', marginTop: '5vh', color: 'red'}}>Multiplie Inheritance ?</h2>
+</center>
+</Box>
+
+
+
+-----
+
+<h1 style={{color: 'red'}}> Let's get back and See ... </h1>
+
+```javascript className=codehuge
+function Factory(previous) {
+    function MyKind({state}) {
+        this.state = state;
+    };
+	// inheritance pattern from oldies of 1995
+    MyKind.prototype = previous;		// !!!
+    return MyKind;
+};
+const MyKind = Factory({ state: 1 });
+const instance = new MyKind({ state: 2 });
+```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/11_Factory_InstanceOf')}}>Run Me</Button>
+
+
+-----
+
+# sooo  ... 
+
+<Box sx={{marginTop: '9vh'}}>
+<center>
+<h1 style={{fontSize: '9vh', color: 'green'}}>... but ...</h1>
+<h1 style={{fontSize: '9vh'}}>what actually is that</h1>
+<h2 style={{fontSize: '12vh', marginTop: '5vh', color: 'red'}}>Multiplie Inheritance ?</h2>
+</center>
+</Box>
+
+-----
+
+
+<Box sx={{marginTop: '1vh'}}>
+<center>
+
+<h1 style={{fontSize: '7vh', color: 'green', marginTop:'3vh', marginLeft: '7vw'}}>Python Multiplie Inheritance</h1>
+
+<a href="https://docs.python.org/3/tutorial/classes.html#multiple-inheritance">
+<img src="./content/img/PythonMultipleInheritance.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+-----
+
+
+<Box sx={{marginTop: '1vh'}}>
+<center>
+
+<h1 style={{fontSize: '7vh', color: 'green', marginTop:'3vh', marginLeft: '7vw'}}>Python Multiplie Inheritance</h1>
+
+<a href="https://docs.python.org/3/tutorial/classes.html#multiple-inheritance">
+<img src="./content/img/PythonMultipleInheritance2.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+
+-----
+
+# sooo ... 
+
+<Box sx={{marginTop: '9vh'}}>
+<center>
+<h1 style={{fontSize: '9vh', color: 'green'}}> JavaScript Multiplie Inheritance </h1>
+<h1 style={{fontSize: '9vh'}}> is absolutely the same</h1>
+<h2 style={{fontSize: '12vh', marginTop: '5vh', color: 'orange'}}>as any other state of Art</h2>
+</center>
+</Box>
+
+
+-----
+
+
+<Box sx={{marginTop: '1vh'}}>
+<center>
+
+<h1 style={{fontSize: '7vh', color: 'red', marginTop:'3vh', marginLeft: '7vw'}}>* is just ... Total or Linear Order</h1>
+
+<a href="https://en.wikipedia.org/wiki/Total_order">
+<img src="./content/img/TotalOrder.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+-----
+
+# sooo ... 
+
+<Box sx={{marginTop: '9vh'}}>
+<center>
+<h1 style={{fontSize: '9vh', color: 'green'}}> JavaScript Multiplie Inheritance </h1>
+<h1 style={{fontSize: '9vh', color: 'orange'}}> is the same state of Art </h1>
+<h2 style={{fontSize: '15vh', marginTop: '5vh', color: 'red'}}>by default</h2>
+</center>
+</Box>
+
+
+-----
+
+
+<Box sx={{marginTop: '1vh'}}>
+<center>
+
+<h1 style={{fontSize: '7vh', color: 'green', marginTop:'3vh', marginLeft: '7vw'}}>Eric Elliott</h1>
+
+<a href="https://medium.com/@_ericelliott">
+<img src="./content/img/EricElliott.jpeg" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+
+-----
+
+
+<Box sx={{marginTop: '1vh'}}>
+<center>
+
+<h1 style={{fontSize: '7vh', color: 'green', marginTop:'3vh', marginLeft: '7vw'}}>Eric Elliott : instanceof Lies</h1>
+
+<a href="https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a">
+<img src="./content/img/ElliottPI.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+-----
+
+
+<Box sx={{marginTop: '1vh'}}>
+<center>
+
+<h1 style={{fontSize: '7vh', color: 'green', marginTop:'3vh', marginLeft: '7vw'}}>Eric Elliott : instanceof Lies</h1>
+
+<a href="https://medium.com/javascript-scene/common-misconceptions-about-inheritance-in-javascript-d5d9bab29b0a">
+<img src="./content/img/ElliottInstanceofLies.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+
+-----
+
+<h1 style={{color: 'red'}}> ` instanceof ` lies ... </h1>
+
+```javascript className=codegiant
+function foo() {}
+var bar = { a: 'a'};
+foo.prototype = bar; 
+baz = Object.create(bar);
+
+baz instanceof foo // true
+//     ↑ ↑ ↑          oops
+```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/InstanceofLies')}}>Run Me</Button>
+
+
+-----
+
+<Box sx={{marginTop: '5vh'}}>
+<center>
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol/hasInstance">
+<img src="./content/img/Symbol.hasInstance.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+
+
+-----
+
+# sooo ... 
+
+<Box sx={{marginTop: '9vh'}}>
+<center>
+<h1 style={{fontSize: '9vh', color: 'green'}}> in JavaScript Inheritance </h1>
+<h1 style={{fontSize: '12vh', color: 'orange'}}> Symbol . hasInstance </h1>
+<h2 style={{fontSize: '10vh', marginTop: '5vh', color: 'red'}}>gives new magic</h2>
+</center>
+</Box>
+
+
+-----
+
+<Box sx={{marginTop: '20vh'}}>
+<center>
+<h1 style={{fontSize: '12vh', color: 'orange'}}>is that our Instance ?</h1>
+</center>
+</Box>
+
+
+
+
+-----
+
+<Box sx={{marginTop: '20vh'}}>
+<center>
+<h1 style={{fontSize: '12vh', color: 'orange'}}>is that our Instance ?</h1>
+</center>
+</Box>
+
+
+<img src="./content/img/girl_burns.jpeg" style={{position: 'absolute', top: '50vh', left:'32vw', zIndex: 100, width: '35vw'}} />
+
+
+<Button onClick={() => { fetch('http://localhost:3001/example/09_Reactions')}}>Run Me</Button>
+
+
+-----

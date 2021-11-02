@@ -1,0 +1,366 @@
+
+<h1 style={{fontSize:'15vh', color: 'orange'}}>The Final Cut</h1>
+
+<h1 className="borderline">3</h1>
+
+
+-----
+
+-----
+
+# let have some fun time ... 
+
+<Box sx={{marginTop: '9vh'}}>
+<center>
+<h1 style={{fontSize: '9vh', color: 'green'}}> do you know </h1>
+</center>
+</Box>
+
+-----
+
+# let have some fun time ... 
+
+<Box sx={{marginTop: '9vh'}}>
+<center>
+<h1 style={{fontSize: '9vh', color: 'green'}}> do you know </h1>
+<h1 style={{fontSize: '10vh', color: 'gray'}}> * &ndash; multiplier symbol  </h1>
+</center>
+</Box>
+
+-----
+
+# let have some fun time ... 
+
+<Box sx={{marginTop: '9vh'}}>
+<center>
+<h1 style={{fontSize: '9vh', color: 'green'}}> do you know </h1>
+<h1 style={{fontSize: '10vh', color: 'gray'}}> * &ndash; multiplier symbol  </h1>
+<h2 style={{fontSize: '12vh', marginTop: '5vh', color: 'orange'}}>gives us 42 of ANSI ?</h2>
+</center>
+</Box>
+
+
+-----
+
+# And what is that 42 ?
+
+<Box sx={{marginTop: '5vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Phrases_from_The_Hitchhiker%27s_Guide_to_the_Galaxy#The_Answer_to_the_Ultimate_Question_of_Life,_the_Universe,_and_Everything_is_42">
+<img src="./content/img/TheAnswer_42.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+-----
+
+# And what is that 42 ?
+
+<Box sx={{marginTop: '5vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/The_Hitchhiker%27s_Guide_to_the_Galaxy">
+<img src="./content/img/Guide.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+-----
+
+# and what is that 42 of ANSI ?
+
+<Box sx={{marginTop: '5vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/ANSI_character_set">
+<img src="./content/img/ANSI_wiki.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+-----
+
+# and what is that 42 of ANSI ?
+
+<Box sx={{marginTop: '5vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/ASCII#Printable_characters">
+<img src="./content/img/Ansi_Printables.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+-----
+
+# and what is that 42 ?
+
+<Box sx={{marginTop: '5vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Asterisk">
+<img src="./content/img/Asterisk.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+
+-----
+
+# And where Asterisk came from ?
+
+<Box sx={{marginTop: '5vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Astarte">
+<img src="./content/img/Astarte.png" style={{marginTop: '-3vh', width: '85vw'}} />
+</a>
+
+
+</center>
+</Box>
+
+-----
+
+# sooo ... 
+
+<Box sx={{marginTop: '9vh'}}>
+<center>
+<h1 style={{fontSize: '9vh', color: 'red'}}> so the love as </h1>
+<h1 style={{fontSize: '10vh', color: 'gray'}}> * &ndash; a multiplier symbol  </h1>
+<h2 style={{fontSize: '12vh', marginTop: '5vh', color: 'orange'}}>gives the answer</h2>
+</center>
+</Box>
+
+
+-----
+
+-----
+
+# but... the truth is we need ... 
+
+-----
+
+# but... the truth is we need ... 
+
+<table>
+<tr>
+<td>
+<Box sx={{marginTop: '11vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">
+<img src="./content/img/DAG.png" style={{marginTop: '-3vh', width: '47vw'}} />
+</a>
+
+</center>
+</Box>
+
+</td>
+<td>
+<Box sx={{marginTop: '11vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">
+<img src="./content/img/Transitive_Closure.svg" style={{marginTop: '-3vh', width: '35vw'}} />
+</a>
+
+</center>
+</Box>
+
+</td>
+</tr>
+</table>
+
+-----
+
+# but... the truth is we need ... probabilities ...
+
+<table>
+<tr>
+<td>
+<Box sx={{marginTop: '11vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">
+<img src="./content/img/DAG.png" style={{marginTop: '-3vh', width: '47vw'}} />
+</a>
+
+</center>
+</Box>
+
+</td>
+<td>
+<Box sx={{marginTop: '11vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Directed_acyclic_graph">
+<img src="./content/img/Transitive_Closure.svg" style={{marginTop: '-3vh', width: '35vw'}} />
+</a>
+
+</center>
+</Box>
+
+</td>
+</tr>
+</table>
+
+-----
+
+# ... so let's make The Ring ...
+
+<table>
+<tr>
+<td>
+<Box sx={{marginTop: '11vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem">
+<img src="./content/img/Diamond.png" style={{marginTop: '-3vh', width: '50vw'}} />
+</a>
+
+</center>
+</Box>
+
+</td>
+<td>
+
+<Box sx={{marginTop: '7vh', backgroundColor: 'white'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem">
+<img src="./content/img/360px-Diamond_inheritance.svg.png" style={{marginTop: '1vh', width: '20vw'}} />
+</a>
+
+</center>
+</Box>
+
+</td>
+</tr>
+</table>
+
+-----
+
+# ... so let's make The Ring ...
+
+<table>
+<tr>
+<td>
+<Box sx={{marginTop: '11vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem">
+<img src="./content/img/Diamond.png" style={{marginTop: '-3vh', width: '50vw'}} />
+</a>
+
+</center>
+</Box>
+
+</td>
+<td>
+
+<Box sx={{marginTop: '7vh', backgroundColor: 'white'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem">
+<img src="./content/img/360px-Diamond_inheritance.svg.png" style={{marginTop: '1vh', width: '20vw'}} />
+</a>
+
+</center>
+</Box>
+
+</td>
+</tr>
+</table>
+
+
+<img src="./content/img/Yes-You-Can-Slide.jpg" style={{position: 'absolute', top: '50vh', left:'32vw', zIndex: 100, width: '35vw'}} />
+
+-----
+
+# ... so let's make The Ring ...
+
+<table>
+<tr>
+<td>
+<Box sx={{marginTop: '11vh'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem">
+<img src="./content/img/Diamond.png" style={{marginTop: '-3vh', width: '50vw'}} />
+</a>
+
+</center>
+</Box>
+
+</td>
+<td>
+
+<Box sx={{marginTop: '7vh', backgroundColor: 'white'}}>
+<center>
+
+<a href="https://en.wikipedia.org/wiki/Multiple_inheritance#The_diamond_problem">
+<img src="./content/img/360px-Diamond_inheritance.svg.png" style={{marginTop: '1vh', width: '20vw'}} />
+</a>
+
+</center>
+</Box>
+
+</td>
+</tr>
+</table>
+
+
+<img src="./content/img/Yes-You-Can-Slide.jpg" style={{position: 'absolute', top: '50vh', left:'32vw', zIndex: 100, width: '35vw'}} />
+
+
+-----
+
+# ... so let's make The Ring ...
+
+```javascript className=codehuge
+const TheRing = (...args) => {
+    const initial = proxify(args[0]);
+    let current = initial;
+
+    args.slice(1).forEach(arg => {
+        const p = proxify(arg);
+        Object.setPrototypeOf(current, p);
+        current = p;
+    }, current);
+
+    Object.setPrototypeOf(current, initial);
+
+    return initial;
+};
+```
+
+
+-----
+
+# ... so let's make The Ring ...
+
+```javascript className=codegiant
+
+args.slice(1).forEach(arg => {
+
+  const prev = proxify(arg);
+  Object
+   .setPrototypeOf(current, prev);
+
+//
+```
+
+
+<Button onClick={() => { fetch('http://localhost:3001/example/LoopMnemonica')}}>Run Me</Button>

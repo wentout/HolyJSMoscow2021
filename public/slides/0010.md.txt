@@ -1,0 +1,142 @@
+
+<h1 style={{fontSize:'15vh', color: 'orange'}}>f i n</h1>
+
+<h1 className="borderline">ø</h1>
+
+
+-----
+
+# Dima and Artem!
+
+
+<Box>
+<center>
+<a href="https://www.youtube.com/watch?v=T6Os27MKUCQ">
+<img src="./content/img/DimaArtem.png" style={{marginTop: '2vh', width: '71vw'}} />
+</a>
+</center>
+</Box>
+
+
+-----
+# Vsevolod...
+
+<Box>
+<center>
+<a href="https://www.youtube.com/watch?v=lXQTSXfGfbo">
+<img src="./content/img/Vsevolod.png" style={{marginTop: '2vh', width: '71vw'}} />
+</a>
+</center>
+</Box>
+
+-----
+# Dima!
+
+<Box>
+<center>
+<a href="https://www.youtube.com/watch?v=wXaoKroEnp4">
+<img src="./content/img/DimaOVR.png" style={{marginTop: '2vh', width: '71vw'}} />
+</a>
+</center>
+</Box>
+
+
+-----
+
+
+<Box sx={{marginTop: '10vh'}}>
+<center>
+
+# the team !
+
+<img src="./content/img/team.jpg" style={{width: '55vw'}} />
+
+</center>
+</Box>
+
+
+-----
+
+<h1 style={{fontSize:'25vh', color: 'orange'}}>Thank You</h1>
+
+<h1 className="borderline">ø</h1>
+
+
+-----
+
+<Box sx={{marginTop: '10vh'}}>
+<center>
+<h1 style={{color:'orange', fontSize: '22vh'}}>ø</h1>
+
+
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+<h1 style={{fontSize:'20vh'}}>  → </h1>
+
+
+</center>
+</Box>
+
+-----
+
+
+
+<Box sx={{marginTop: '10vh'}}>
+<center>
+
+<h1 style={{fontSize: '11vh', color:'orange'}}>links</h1>
+
+<br/>
+
+<br/>
+
+# [this talk with all examples](https://wentout.github.io/MoscowJS50/)
+
+<br/>
+
+# used library : [Type ø Matica](https://www.npmjs.com/package/typeomatica)
+
+<br/>
+<br/>
+
+# project : [Mnemonica](https://www.npmjs.com/package/mnemonica)
+
+<br/>
+
+
+</center>
+</Box>
+
+-----
+
+
+<Box sx={{textAlign: 'center'}}>
+<a href="https://wentout.github.io/MoscowJS50/">
+<img src="./content/qrcode_wentout.github.io.png" style={{marginTop: '2vh', width: '49vw'}} />
+</a>
+</Box>
+
+-----
+
+
+-----
+
+<Box sx={{marginTop: '10vh'}}>
+<center>
+<h1 style={{color:'orange'}}>Why Mnemonica?</h1>
+
+<img src="./content/img/mnemonica_book.jpg" style={{width: '55vw'}} />
+
+</center>
+</Box>
+
+-----
+
+-----
+
+
+

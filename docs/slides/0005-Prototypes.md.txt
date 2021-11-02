@@ -1,0 +1,495 @@
+
+
+<h1 style={{fontSize:'15vh', color: 'orange'}}>... history ...</h1>
+
+<h1 className="borderline">0</h1>
+
+-----
+
+<Box sx={{marginTop: '25vh'}}>
+<center>
+<h1 style={{fontSize: '11vh', color: 'cyan'}}>What is Inheritance?</h1>
+</center>
+</Box>
+
+
+-----
+
+<Box sx={{marginTop: '25vh'}}>
+<center>
+<h1 style={{fontSize: '11vh', color: 'cyan'}}>What is Inheritance?</h1>
+</center>
+</Box>
+
+
+<img src="./content/img/half_liter_mouse.jpg" style={{position: 'absolute', top: '50vh', left:'32vw', zIndex: 100, width: '35vw'}} />
+
+
+-----
+
+# inheritance is a thing itself
+
+
+<Box>
+<center>
+<a href="https://en.wikipedia.org/wiki/Inheritance_(object-oriented_programming)">
+<img src="./content/img/Inheritance.png"  style={{width: '80vw'}} />
+</a>
+</center>
+</Box>
+
+
+
+-----
+
+<Box sx={{marginTop: '25vh', marginLeft: '15vw', fontFamily: 'Courier', fontSize:'3vh'}}>
+	Let us remember, it was: December 4, 1995<br/>
+	<br/>
+	The More Developed languages had Class Based Ineritance<br/>
+	But prototypes are way more simplier pattern.<br/>
+	Just put something to the Constructors.prototype.<br/>
+	And that is it -- it would be inherited.<br/>
+	<br/>
+		-- What for?
+</Box>
+
+
+-----
+
+# Brendan's thought on inheritance
+<center>
+<img src="./content/img/EichObjects.png" style={{top: '15vh', zIndex: 100, width: '85vw'}} />
+</center>
+
+-----
+
+<Box sx={{marginTop: '25vh', marginLeft: '15vw', fontFamily: 'Courier', fontSize:'3vh'}}>
+	Let us remember, it was: December 4, 1995<br/>
+	<br/>
+	The More Developed languages had Class Based Ineritance<br/>
+	But prototypes are way more simplier pattern.<br/>
+	Just put something to the Constructors.prototype.<br/>
+	And that is it -- it would be inherited.<br/>
+	<br/>
+		-- What for?
+</Box>
+
+-----
+[{"snowflakes":true}]
+
+<Box sx={{marginTop: '25vh', marginLeft: '15vw', fontFamily: 'Courier', fontSize:'3vh'}}>
+	Let us remember, it was: December 4, 1995<br/>
+	<br/>
+	The More Developed languages had Class Based Ineritance<br/>
+	But prototypes are way more simplier pattern.<br/>
+	Just put something to the Constructors.prototype.<br/>
+	And that is it -- it would be inherited.<br/>
+	<br/>
+		-- What for? Snowflakes, for sure!<br/>
+</Box>
+
+
+
+
+-----
+
+# inheritance is a thing itself
+
+
+<Box>
+<center>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain">
+<img src="./content/img/PrototypeChain.png"  style={{width: '80vw'}} />
+</a>
+</center>
+</Box>
+
+-----
+
+# that frightening picture
+
+<Box>
+<center>
+<a href="http://ecma-international.org/ecma-262/#sec-objects">
+<img src="./content/img/figure-1.svg"  style={{width: '70vw'}} />
+</a>
+</center>
+</Box>
+
+
+-----
+
+# let's remember the beginning
+
+<Box sx={{marginTop: '5vh'}}>
+<center>
+<a href="http://crockford.com/javascript/javascript.html">
+<img src="./content/img/CrockMisunderstood.png" style={{width: '75vw'}} />
+</a>
+</center>
+</Box>
+
+
+-----
+
+# to even more frightening modern picture
+<center>
+<img src="./content/JS_Object_Topology.svg" style={{top: '15vh', zIndex: 100, width: '85vw'}} />
+</center>
+
+
+-----
+
+# and inheritance in JavaScript was like this forever
+
+
+<Box sx={{marginTop: '5vh'}}>
+<center>
+<a href="https://www.crockford.com/javascript/prototypal.html">
+<img src="./content/img/CrockPrototypes.png" style={{width: '81vw'}} />
+</a>
+</center>
+</Box>
+
+
+-----
+
+# to even more frightening modern picture
+<center>
+<img src="./content/JS_Object_Topology.svg" style={{top: '15vh', zIndex: 100, width: '85vw'}} />
+</center>
+
+-----
+
+# even more frightening modern picture
+<center>
+<img src="./content/img/EichNullUndefined.png" style={{top: '15vh', zIndex: 100, width: '85vw'}} />
+</center>
+
+
+-----
+
+# Everything is Object except of [Object: null prototype]
+
+<Box sx={{textAlign: 'center'}}>
+<a href="https://github.com/tc39/ecma262/pull/1913">
+<img src="./content/img/tc39.png" style={{marginTop: '2vh', width: '75vw'}} />
+</a>
+</Box>
+
+
+-----
+
+# even more frightening modern picture
+<center>
+<img src="./content/JS_Object_Topology.svg" style={{top: '15vh', zIndex: 100, width: '85vw'}} />
+</center>
+
+
+
+-----
+
+# From the beginner's Prototypes Example
+
+```javascript className=codehugeshift
+// back to the 1995
+var TheConstructor = function () {
+	this;
+	debugger;
+};
+
+var instance = new TheConstructor;
+// we can see constructor definition
+// made like this
+```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/01_1995')}}>Run Me</Button>
+
+-----
+
+# Beginnings Prototypes Example
+
+```javascript className=codehugenoshift
+var TheConstructor = function () { /*  1st */ };
+
+var instance = new TheConstructor;
+
+var NextConstructor = function () { /* 2nd */ };
+
+// instance is Inherited !
+NextConstructor.prototype = instance;
+
+
+```
+
+-----
+
+-----
+
+# inheritance is always 
+
+-----
+
+# inheritance is always 
+
+<div style={{marginLeft: '5vw'}}>
+
+<Box sx={{marginTop: '1vh'}}>
+<h1 style={{fontSize: '7vh', color: 'orange'}}>lifecycle of our Data </h1>
+</Box>
+
+</div>
+
+-----
+
+# inheritance is always 
+
+<div style={{marginLeft: '5vw'}}>
+
+<Box sx={{marginTop: '1vh'}}>
+<h1 style={{fontSize: '7vh', color: 'orange'}}>lifecycle of our Data <span style={{marginLeft: '1vw', foneSize: '8vh', color: 'green'}}> & C . O . D . E .</span></h1>
+</Box>
+
+<br/>
+
+<Chart id='chartAbs' opts={{
+	chart : {
+		type : 'tree',
+		chartData : {
+			name : 'Entry',
+			stroke: 'white',
+			children : [{
+				name: 'Leaf 1',
+				stroke: 'white',
+				children : [{
+					name: 'Leaf 1 . 1',
+					stroke: 'white',
+					children : [{
+						name: 'Leaf 1 . 1',
+						stroke: 'white'
+					}]
+				}, {
+					name: 'Leaf 1 . 2',
+					stroke: 'white',
+					children : [{
+						name: 'Leaf 1 . 2',
+						stroke: 'white',
+					}]
+				}],
+			}, {
+				name: 'Leaf 2',
+				stroke: 'white',
+				children : [{
+					name: 'Leaf 2 . 1',
+					stroke: 'white',
+				}, {
+					name: 'Leaf 2 . 2',
+					stroke: 'white',
+				}, {
+					name: 'Leaf 2 . 3',
+					stroke: 'white',
+				}],
+			}],
+		},
+		print : app.print,
+		dy : 15,
+		dx : 95,
+		width : 450,
+		margin : {
+			top: 7, right: 40, bottom: 10, left: 40
+		}
+	}
+}} />
+
+</div>
+
+-----
+
+# inheritance is always 
+
+<div style={{marginLeft: '5vw'}}>
+
+<Box sx={{marginTop: '1vh'}}>
+<h1 style={{fontSize: '7vh', color: 'orange'}}>lifecycle of our Data <span style={{marginLeft: '1vw', foneSize: '8vh', color: 'green'}}> & C . O . D . E .</span> <span style={{marginLeft: '1vw', foneSize: '9vh', color: 'gray'}}>in Time</span></h1> 
+</Box>
+
+<br/>
+
+<div className="timelineText">
+
+
+# &mdash; <span style={{color:'gray'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'gray'}}>Line</span> &mdash; &mdash; <span style={{color:'gray'}}>&gt;</span>
+
+</div>
+
+
+<div className="timelineTextBlack">
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+# &mdash; <span style={{color:'black'}}>Time</span> &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; &mdash; <span style={{color:'gray'}}>|</span> &mdash; &mdash; <span style={{color:'black'}}>Line</span> &mdash; <span style={{color:'black'}}>&gt;</span>
+
+
+</div>
+
+<Chart id='chartAbs' opts={{
+	chart : {
+		type : 'tree',
+		chartData : {
+			name : 'Entry',
+			stroke: 'white',
+			children : [{
+				name: 'Leaf 1',
+				stroke: 'white',
+				children : [{
+					name: 'Leaf 1 . 1',
+					stroke: 'white',
+					children : [{
+						name: 'Leaf 1 . 1',
+						stroke: 'white'
+					}]
+				}, {
+					name: 'Leaf 1 . 2',
+					stroke: 'white',
+					children : [{
+						name: 'Leaf 1 . 2',
+						stroke: 'white',
+					}]
+				}],
+			}, {
+				name: 'Leaf 2',
+				stroke: 'white',
+				children : [{
+					name: 'Leaf 2 . 1',
+					stroke: 'white',
+				}, {
+					name: 'Leaf 2 . 2',
+					stroke: 'white',
+				}, {
+					name: 'Leaf 2 . 3',
+					stroke: 'white',
+				}],
+			}],
+		},
+		print : app.print,
+		dy : 15,
+		dx : 95,
+		width : 450,
+		margin : {
+			top: 15, right: 40, bottom: 10, left: 40
+		}
+	}
+}} />
+
+</div>
+
+
+-----
+
+# But what do we have now with Extended Classes
+
+```javascript className=codehugeshift
+
+class BaseClass {};
+
+class TheClass extends BaseClass{};
+
+debugger;
+
+const instance = new TheClass;
+
+debugger;
+
+```
+
+<Button onClick={() => { fetch('http://localhost:3001/example/02_02_ExtendedClass')}}>Run Me</Button>
+
+
+-----
+
+-----
+
+# sooo ... 
+
+-----
+
+# sooo ... 
+
+<Box sx={{marginTop: '15vh'}}>
+<center>
+<h1 style={{fontSize: '8vh', color: 'green'}}>Classes are Good</h1>
+</center>
+</Box>
+
+-----
+
+# sooo ... 
+
+<Box sx={{marginTop: '15vh'}}>
+<center>
+<h1 style={{fontSize: '8vh', color: 'green'}}>Classes are Good</h1>
+<h1 style={{fontSize: '8vh'}}>everything is simplified</h1>
+</center>
+</Box>
+
+-----
+
+# sooo ... 
+
+<Box sx={{marginTop: '15vh'}}>
+<center>
+<h1 style={{fontSize: '8vh', color: 'green'}}>Classes are Good</h1>
+<h1 style={{fontSize: '8vh'}}>everything is simplified</h1>
+<h2 style={{fontSize: '11vh', marginTop: '5vh', color: 'red'}}>But no Life Cycle anymore</h2>
+</center>
+</Box>
+
+
+-----
+
+# sooo ... 
+
+<Box sx={{marginTop: '15vh'}}>
+<center>
+<h1 style={{fontSize: '8vh', color: 'green'}}>Classes are Good</h1>
+<h1 style={{fontSize: '8vh'}}>simplified</h1>
+<h2 style={{fontSize: '11vh', marginTop: '5vh', color: 'red'}}>But no Life Cycle anymore</h2>
+</center>
+</Box>
+
+<img src="./content/img/half_liter_mouse.jpg" style={{position: 'absolute', top: '20vh', left:'32vw', zIndex: 100, width: '35vw'}} />
+
+-----
+
+# But what do we have now with Extended Classes
+
+```javascript className=codehugeshift
+
+class BaseClass {};
+
+class TheClass extends BaseClass{};
+
+debugger;
+
+const instance = new TheClass;
+
+debugger;
+
+```
+
+
+<img src="./content/img/half_liter_mouse.jpg" style={{position: 'absolute', top: '40vh', left:'32vw', zIndex: 100, width: '35vw'}} />
