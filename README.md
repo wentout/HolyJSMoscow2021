@@ -1,8 +1,43 @@
 # slides for "Multiple Inheritance in JavaScript" talk
 
-Made on mythographica's [presentations framework](https://github.com/mythographica/slider)
+The links to previous Mytho Project presentations:
+
+##2021
+
+MoscowJS — Магия прототипного наследования | Moscow JS 50 
+https://moscowjs.org/talks/magiya-prototipnogo-nasledovaniya/
+
+
+Topology of Dynamic Types in JavaScript | RIF Voronezh
+https://github.com/wentout/RIF.Voronezh.2021
+
+
+Strict Types in JavaScript | HolyJS 2021 Piter.
+https://holyjs-piter.ru/2021/spb/talks/2ahhqdpvvdatmbjqjtc0wc/
+https://www.youtube.com/watch?v=7_APF8q4ZX8&list=PL8sJahqnzh8JyUetDcVI5iHzGP8pfKjcl&index=8
+
+
+Multiplie Inheritance in JavaScript
+https://github.com/wentout/BeerJS_Voronezh_2021
+
+
+## 2020
+
+PiterJS #54 + Node.js SPb - ( December 11 2020 ) *
+https://www.youtube.com/watch?v=wbcL5xn-3l4
+
+TimeScript
+https://github.com/wentout/RnDTechTalk
+https://www.youtube.com/watch?v=egW02hA2ous
+
+Chronotope: await Eloquent.Errors | HolyJS 2020 Piter.
+https://2020.holyjs-piter.ru/2020/spb/talks/5rfoo1ydp55epqp11trgvi/
+https://www.youtube.com/watch?v=EE8oztR_Gtg
+
 
 # how to run the deck
+
+Made on mythographica's [presentations framework](https://github.com/mythographica/slider)
 
 ## 1. clone the repo and
 

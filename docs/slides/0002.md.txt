@@ -3,7 +3,9 @@
 
 <Box>
 <center>
+<a href="https://t.me/moscowjs">
 <img src="./content/MoscowJS_logo.jpg"  style={{marginTop: '5vh', width: '45vw', background: 'white'}} />
+</a>
 </center>
 </Box>
 
@@ -49,7 +51,7 @@
 <Box>
 <center>
 <a href="https://dataart.team/">
-<img src="./content/DataArt.jpg"  style={{marginTop: '5vh', width: '45vw', background: 'white'}} />
+<img src="./content/DataArt.png"  style={{marginTop: '5vh', width: '50vw', background: 'white'}} />
 </a>
 </center>
 </Box>
@@ -59,5 +61,13 @@
 <Box sx={{textAlign: 'center'}}>
 <a href="https://github.com/wentout/HolyJSMoscow2021">
 <img src="./content/qrcode_wentout.github.io.png" style={{marginTop: '2vh', width: '49vw'}} />
+</a>
+</Box>
+
+-----
+
+<Box sx={{textAlign: 'center'}}>
+<a href="https://t.me/ufostation_chat">
+<img src="./content/ufostation.jpg" style={{marginTop: '2vh', width: '49vw'}} />
 </a>
 </Box>
