@@ -338,7 +338,7 @@ const TheRing = (...args) => {
         const p = proxify(arg);
         Object.setPrototypeOf(current, p);
         current = p;
-    }, current);
+    });
 
     Object.setPrototypeOf(current, initial);
 

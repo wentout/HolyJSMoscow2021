@@ -109,7 +109,7 @@ const ring = (...args) => {
         debugger;
         Object.setPrototypeOf(current, p);
         current = p;
-    }, current);
+    });
 
     debugger;
     Object.setPrototypeOf(current, initial);
@@ -163,7 +163,10 @@ console.log('wohoo', tail.e === 5);
 
 debugger;
 
-// console.log('a instanceof A : ', a instanceof A);
+console.log('a instanceof A : ', a instanceof A);
+
+debugger;
+
 // console.log('b instanceof B : ', b instanceof B);
 // console.log('c instanceof C : ', c instanceof C);
 // console.log('d instanceof D : ', d instanceof D);
